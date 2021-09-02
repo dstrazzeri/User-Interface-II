@@ -1,1 +1,135 @@
 /* Add CSS styling here */
+/*css reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+    
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        max-width: 100%; 
+       /* border: orange 2px solid;*/
+    }
+    /*general styles*/
+    html{
+        font-size: 62.5%;
+    }
+    body {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: #fff;  
+        font-family: 'Hina Mincho', serif;
+        letter-spacing: 1px;
+        background-color:#DEC9E9;
+ }
+ h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 100px;
+    text-align:center;
+ }
+nav {
+    display: flex;
+    justify-content:center;
+}
+img:hover {
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+}
+
+a {
+    text-decoration: none;
+    background-color: #9F86C0;
+    padding: 15px 32px;
+    text-align:center;
+    font-size:25px;
+    color:white;
+}
+a:hover {
+    background-color:#7251B5;
+}
+.intro {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+    text-align:center;
+}
+h2 {
+    font-size:80px;
+}
+p {
+    display:flex;
+    font-size: 30px;
+    align-items:center;
+}
+.bigimg{
+    height:25vh;
+    background-image:url('https://images.pexels.com/photos/5995211/pexels-photo-5995211.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    margin-top:0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.galP {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ .gallery {
+    height: 35vh;
+    display: flex;
+     justify-content:space-between;
+ }
+
+ footer {
+    background-color: #5E548E;
+    margin-top:2%;
+    height:15vh;
+    padding-top:5px;
+ }
+
+ div {
+     display:flex;
+     flex-direction:column;
+     margin:25px;
+     justify-content:space-between;
+ }
+
+
