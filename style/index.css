@@ -51,9 +51,10 @@ blockquote, q {
     body {
         font-size: 1.6rem;
         line-height: 1.5;
-        color: #4F4F4F;  
+        color: #fff;  
         font-family: 'Hina Mincho', serif;
         letter-spacing: 1px;
+        background-color:#DEC9E9;
  }
  h1 {
     font-family: 'Cedarville Cursive', cursive;
@@ -63,6 +64,10 @@ blockquote, q {
 nav {
     display: flex;
     justify-content:center;
+}
+img:hover {
+      opacity: 0.3;
+      filter: alpha(opacity=30);
 }
 
 a {
@@ -74,12 +79,13 @@ a {
     color:white;
 }
 a:hover {
-    background-color:#4F4F4F;
+    background-color:#7251B5;
 }
 .intro {
     display:flex;
     justify-content:center;
     flex-direction:column;
+    align-items: center;
     text-align:center;
 }
 h2 {
@@ -101,7 +107,11 @@ p {
   justify-content:center;
   align-items:center;
 }
-
+.galP {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
  .gallery {
     height: 35vh;
     display: flex;
