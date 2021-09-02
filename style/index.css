@@ -42,7 +42,7 @@ blockquote, q {
         padding: 0;
         margin: 0;
         max-width: 100%; 
-        border: orange 2px solid;
+       /* border: orange 2px solid;*/
     }
     /*general styles*/
     html{
@@ -52,8 +52,13 @@ blockquote, q {
         font-size: 1.6rem;
         line-height: 1.5;
         color: #4F4F4F;  
-        font-family: 'Roboto Mono', monospace;
+        font-family: 'Hina Mincho', serif;
         letter-spacing: 1px;
+ }
+ h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 100px;
+    text-align:center;
  }
 nav {
     display: flex;
@@ -70,6 +75,20 @@ a {
 }
 a:hover {
     background-color:#4F4F4F;
+}
+.intro {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+h2 {
+    font-size:80px;
+}
+p {
+    display:flex;
+    font-size: 30px;
+    align-items:center;
 }
 .bigimg{
     height:25vh;
@@ -88,3 +107,19 @@ a:hover {
     display: flex;
      justify-content:space-between;
  }
+
+ footer {
+    background-color: #5E548E;
+    margin-top:2%;
+    height:15vh;
+    padding-top:5px;
+ }
+
+ div {
+     display:flex;
+     flex-direction:column;
+     margin:25px;
+     justify-content:space-between;
+ }
+
+
