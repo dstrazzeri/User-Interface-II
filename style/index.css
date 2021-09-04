@@ -148,6 +148,8 @@ img {
      flex-direction:column;
      justify-content:space-between;
  }
+ /*MEDIA QUARIES*/
+ 
 @media(max-width:500px) {
 nav{
     padding-top:2vh;
@@ -178,4 +180,25 @@ justify-content:space-around;
 footer{
     margin-top:125vh;
     height:max-content;
+}
+}
+@media(max-width:800px){
+.gallery {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.galP {
+    display:flex;
+    align-items: baseline;
+    padding:10% 1%;
+    text-align:center;
+}
+footer {
+    align-items:flex-end;
+    margin-top: 120vh;
+ }
+ footer a{
+     align-items: center;
+ }
 }
